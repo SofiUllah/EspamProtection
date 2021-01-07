@@ -1,0 +1,14 @@
+# EspamProtection
+Communication over email in this era of Internet has become very popular on account of its being cheap and easy to use for messaging and sharing important information to others. 
+But spam messages often times make large volume of unwanted messages in the users inbox and it also wastes the resources as well as valuable time of the users. 
+Therefore, in order to identify the message whether it is spam or ham, an efficient and accurate technique is required. 
+In this paper, we propose a new model for detecting spam messages based on the sentiment analysis of the textual data of the email body.
+We incorporate Word-Embeddings and Bidirectional LSTM network to analyze the sentimental and sequential properties of texts. 
+Furthermore, we speed up the training time and extract higher level text features for Bi-LSTM network using Convolution Neural Network. 
+We involve two datasets namely lingspam dataset and spam text message classification dataset and adopt recall, precision and f-score for 
+comparing and evaluating the performance of our proposed approach. Our model achieves improved performance of accuracy about 98-99%. 
+Apart from this, we demonstrate our model outperforms 
+not only to some popular machine learning classifiers but also to state of the art approaches for detecting spam messages and hence, proves the superiority by itself.
+
+Please read the full paper to realize the whole idea by the following link
+https://ieeexplore.ieee.org/document/9230769
